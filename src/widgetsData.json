@@ -1,0 +1,67 @@
+{
+    "categories": [
+      {
+        "id": "cspm-exec-dashboard",
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "id": "cloud-accounts",
+            "name": "Cloud Accounts",
+            "properties": [
+              { "name": "Connected", "value": 2 },
+              { "name": "Not Connected", "value": 2 }
+            ]
+          },
+          {
+            "id": "cloud-risk-assessment",
+            "name": "Cloud Account Risk Assessment",
+            "properties": [
+              { "name": "Failed", "value": 1689 },
+              { "name": "Warning", "value": 681 },
+              { "name": "Not Available", "value": 36 },
+              { "name": "Passed", "value": 7253 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cwpp-dashboard",
+        "name": "CWPP Dashboard",
+        "widgets": [
+          {
+            "id": "top-namespace-alerts",
+            "name": "Top 5 Namespace Specific Alerts",
+            "content": "No Graph data available!"
+          },
+          {
+            "id": "workload-alerts",
+            "name": "Workload Alerts",
+            "content": "No Graph data available!"
+          }
+        ]
+      },
+      {
+        "id": "images",
+        "name": "Images",
+        "widgets": [
+          {
+            "id": "image-risk-assessment",
+            "name": "Image Risk Assessment",
+            "content": "1470 Total Vulnerabilities, Critical (9), High (150)"
+          },
+          {
+            "id": "image-security-issues",
+            "name": "Image Security Issues",
+            "content": "2 Total Images, Critical (2), High (2)"
+          }
+        ]
+      },
+      {
+        "id": "tickect",
+        "name": "Tickect",
+        "widgets": []
+      }
+    ]
+  }
+  
+
